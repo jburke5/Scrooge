@@ -51,4 +51,6 @@ label values selfReportHyperlipidemia selfReportLab
 
 svyset [w= WTINT2YR], psu( sdmvpsu) strata(sdmvstra)
 
+rename seqn patientID
+
 save nhanesForScrooge.dta, replace
