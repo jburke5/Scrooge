@@ -1,0 +1,19 @@
+// This Stat/Transfer command file was automatically generated on July 24, 2018 at 9:37 AM (v13.1.371.1003, Mac OS X (Darwin 17.5.0 x86_64))
+//ENCODING UTF-8
+set numeric-names      n
+set log-level          e
+set in-encoding        system
+set out-encoding       system
+set enc-errors         sub
+set enc-sub-char       _
+set enc-error-limit    100
+set var-case-cs        preserve-mixed
+set preserve-str-widths n
+set preserve-num-widths n
+set read-sas-fmts      n
+set stata-strL-threshold 32
+set write-stata-se     y
+
+copy  /Users/burke/Documents/research/scrooge/nhanes2015-2016/MCQ_I.XPT stata /Users/burke/Documents/research/scrooge/nhanes2015-2016/MCQ_I.dta -T<MCQ_I 
+
+quit
