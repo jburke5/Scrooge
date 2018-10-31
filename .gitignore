@@ -1,3 +1,5 @@
 all*
 singleProvider*
 *.dta
+*.docx
+*.doc
